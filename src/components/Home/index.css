@@ -1,0 +1,25 @@
+.homeSection {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 75%;
+}
+
+.findjobsButton {
+  align-self: flex-start;
+  margin-top: 25px;
+  border: none;
+  color: white;
+  background-color: #4f46e5;
+  padding: 10px 20px;
+  border-radius: 8px;
+}

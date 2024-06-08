@@ -1,0 +1,77 @@
+.jobItemDetailsComponent {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+}
+
+.fetchFailedDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.seeLoader {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.similarjobTitle {
+  display: flex;
+}
+
+.similarJobsUl {
+  display: flex;
+  padding-left: 0px;
+}
+
+.similarJob {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategrey;
+  border-radius: 15px;
+}
+
+.jobItemDetails {
+  margin-right: 80px;
+}
+
+.skillImage {
+  width: 30px;
+  height: 30px;
+}
+
+.lifeAtCompany {
+  display: flex;
+  align-items: center;
+}
+
+.skillItem {
+  display: flex;
+  margin: 0px 15px;
+}
+
+.websiteUrl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.webLink {
+  display: flex;
+  width: 60px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.skillsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

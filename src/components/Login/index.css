@@ -1,0 +1,60 @@
+.loginComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.jobbyLoginCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.logoImage {
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+
+.loginInput {
+  height: 32px;
+  margin: 2px 0px 20px 0px;
+  padding-left: 8px;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+
+.inputLabel {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.submitButton {
+  background-color: #4f46e5;
+  color: white;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.loginErrorPara {
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+}

@@ -1,0 +1,126 @@
+.jobsSection {
+  display: flex;
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  padding: 25px;
+}
+
+.noJobsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchDiv {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  border: 1px solid rgb(93, 130, 145);
+  border-radius: 5px;
+}
+
+.searchIcon {
+  background-color: #4f46e5;
+  width: 40px;
+  height: 100%;
+  border-radius: 5px;
+  padding: 4px 0px 0px 0px;
+  border: none;
+}
+
+.searchEl {
+  width: 90%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 6px;
+  font-size: 14px;
+}
+
+.searchAndResultsDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 50px;
+  width: 100%;
+}
+
+.radioLabel {
+  margin-left: 15px;
+}
+
+.subHeading {
+  margin-bottom: 0px;
+}
+
+.radio {
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.checkboxLabel {
+  margin-left: 15px;
+}
+
+.filterUl {
+  padding-left: 0px;
+}
+
+.profileAndFilters {
+  width: 300px;
+}
+
+.checkbox {
+  margin: 10px 0px;
+}
+
+.hRule {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.retryButton {
+  color: white;
+  background-color: #4f46e5;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.profileDiv {
+  display: flex;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 10px;
+  padding-left: 15px;
+  justify-content: center;
+}
+
+.profileIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.profileName {
+  margin: 0px;
+  font-size: 22px;
+}
+
+.bio {
+  margin: 5px 0px;
+}
